@@ -6,9 +6,6 @@ from datetime import datetime, timedelta
 # Initialize Flask app
 app = Flask(__name__)
 
-# Discord webhook URL (replace with your actual webhook URL)
-discord_webhook_url = 'YOUR_DISCORD_WEBHOOK_URL'
-
 # Create the database and table if not exists
 def init_db():
     conn = sqlite3.connect('messages.db')
