@@ -1,5 +1,5 @@
 # Flask Discord Message Sender
-![Dashboard](screenshot.png)
+![Dashboard](dashboard.png)
 This is a simple web app where users can input a message that gets:
 - Stored in a SQLite database
 - Sent to a Discord channel via webhook
